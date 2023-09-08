@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 200px;
+  min-height: auto;
+  background: #201f1f;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 20px;
+  font-size: 40px;
+ 
+
+  background-color: #1a1a1a;
+
+  transition: border-color 0.25s;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hand1{
+  background-color: #8457ff;
+  font-size: 40px;
+
+
+}
+.hand2{
+  background-color: #ff5757;
+  font-size: 40px;
+
+
+}
+.logo {
+  width: 20px; /* ปรับขนาดความกว้างตามต้องการ */
+  height: auto; /* ความสูงจะปรับตามอัตราส่วนของ SVG */
+  padding: 20px;
+  margin: 10px; 
+}
+.hand-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.all{
+  height: 300px;
+  padding:  30px;
+
+
+}
+.img{
+  height: 300px;
+}
+
+
+.blue{
+  color: #8457ff;
+  font-size: 30px;
+
+}
+.red{
+  color: #ff5757;
+  font-size: 30px;
+
+
+}
+.score-board{
+  text-align: center;
+  margin: 20px;
+
+
+
+
+}
